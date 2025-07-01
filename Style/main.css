@@ -1,0 +1,32 @@
+ul{
+    text-align: right;
+    position: relative;
+    right:2px;
+    bottom:-16px;
+}
+nav ul li{
+    color:blue;
+}
+nav ul li {
+    display:inline;
+    margin: 20px;
+}
+header{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    height:60px;
+}
+header p{
+    text-align: right;
+    justify-content:right;
+    font-size:15px;
+}
+#about-us{
+    text-align: center;
+    padding: 90px;
+    max-width:800px;
+    width:90%;
+    margin:0px;
+
+}
