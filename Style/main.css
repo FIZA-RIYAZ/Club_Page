@@ -1,3 +1,21 @@
+body {
+  background-color: #e8eeed;
+
+  background-image: 
+    url("/Images/undraw_engineering-team_13ax.svg"),
+    url("/images/undraw_firmware_3fxd.svg");
+
+  background-size: 
+    116px,  
+    377px;   
+
+  background-position: 
+    15% 4%,       
+    bottom right;   
+
+  background-repeat: no-repeat, no-repeat;
+}
+
 ul{
     text-align: right;
     position: relative;
@@ -22,17 +40,28 @@ header p{
     justify-content:right;
     font-size:15px;
 }
+h1 i{
+   color: rgb(21, 21, 95);
+}
 #about-us{
-    
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding: 90px;
-    max-width:800px;
-    width:90%;
-    margin:0px;
-    min-height: 30vh;
-    
-    
+    justify-content: center;        
+    align-items: center;
 
+    
+    width:50%;
+    min-height: 33vh;
+    
+    margin: auto;
+    
+   
+
+}
+#top{
+  font-weight:800;
+  font-size:x-large;
 }
 
 
@@ -41,7 +70,7 @@ header p{
   display: flex;
   justify-content: center;        
   align-items: center;            
-  background-color: #f9f9f9; 
+   
   align-content: flex-end;     
 }
 address {
@@ -62,13 +91,12 @@ address {
   justify-content: center;
   align-items: center;
   padding: 40px 0;
-  background-color: #f9f9f9;
+ 
 }
 
 .follow-us {
   background-color:#fff ;
   text-align: center;
-  
   padding: 40px 0;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -79,11 +107,14 @@ address {
   font-size: large;
 }
 
-#check-out{
-  min-height: 25vh;
+.check{
+ 
   display: flex;
-  justify-content:flex-start;
-  align-items:first baseline;
-  padding: 40px 0;
-  
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  padding:10px 5px 15px 20px;
+
+  min-height: 25vh;
+  width:20%;
 }
